@@ -1,0 +1,43 @@
+NEXA STUDIO — Formação em Arquitetura e Engenharia
+Pacote multiplataforma para celular e computador
+
+ARQUIVOS
+- index.html: aplicação principal
+- manifest.webmanifest: identificação da aplicação instalável
+- sw.js: cache e suporte básico offline após a primeira visita
+- icons/: ícones usados pelo navegador e pela instalação
+
+ATUALIZAÇÕES DESTA VERSÃO
+- Interface visual NEXA Studio com identidade mais técnica, painéis, camadas e navegação adaptável.
+- Busca global de aulas, áreas, conceitos da biblioteca e anotações. Atalho Ctrl+K / Cmd+K em teclado.
+- Workspace com indicadores de progresso, média dos questionários e progresso por área.
+- Favoritos para guardar aulas importantes.
+- Central de anotações.
+- Portfólio com possibilidade de anexar uma imagem por projeto (imagem reduzida no próprio aparelho).
+- Questionários de aula ampliados para 10 questões de múltipla escolha, com quatro alternativas e explicações.
+- Histórico, backup JSON e restauração mantidos.
+- Cache do aplicativo atualizado para evitar carregar arquivos antigos.
+
+IMPORTANTE — ANTES DE PUBLICAR
+1. Teste no celular e em um computador, especialmente navegação, busca, questionários, imagens, backup e restauração.
+2. Publique TODOS os arquivos mantendo a estrutura de pastas, não apenas o index.html.
+3. A instalação PWA e o service worker exigem hospedagem HTTPS (GitHub Pages atende).
+4. Faça uma primeira visita online para o cache offline ser instalado.
+5. O progresso fica no navegador/aparelho. Não há login nem sincronização automática em nuvem nesta versão. Para sincronização entre dispositivos, será necessário configurar autenticação, banco de dados e regras de segurança.
+
+ESCOPO DIDÁTICO ATUAL
+O catálogo herdado desta versão contém 300 aulas organizadas em 15 áreas e 3 níveis. Os questionários agora apresentam 10 questões por aula, geradas a partir de um conjunto de modelos pedagógicos contextualizados pelo tema. Isso não significa que as 300 aulas e 3.000 questões tenham sido revisadas individualmente por especialistas. Antes de apresentar a NEXA como formação profissional ou usar conteúdo para decisões de obra, é necessária revisão técnica e editorial por profissionais habilitados.
+
+SEGURANÇA E RESPONSABILIDADE
+A NEXA é um ambiente educativo introdutório. Exercícios e exemplos não substituem normas técnicas, projetos, cálculos, supervisão ou responsabilidade de profissionais habilitados. Não use o conteúdo para executar obras ou intervenções reais.
+
+
+ATUALIZAÇÃO STUDIO 1.1
+- 300 aulas organizadas em 15 áreas.
+- 5 níveis progressivos, com 3 áreas (60 aulas) em cada nível.
+- Questionários de 10 questões de múltipla escolha por aula.
+- Interface responsiva para celular e computador.
+- Não exige login.
+- Mantém os recursos de workspace, portfólio, favoritos, anotações, busca e backup local.
+
+Para publicar, envie o conteúdo da pasta NEXA_Multiplataforma para a raiz do repositório GitHub Pages.
